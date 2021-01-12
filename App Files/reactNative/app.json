@@ -7,7 +7,7 @@
       "android",
       "web"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./src/assets/images/hex-wallet.png",
     "scheme": "myapp",
@@ -24,7 +24,7 @@
     ],
     "ios": {
       "bundleIdentifier": "com.swiftsalamander.hexwalletios",
-      "buildNumber": "3",
+      "buildNumber": "4",
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to scan QR codes.",
         "NSFaceIDUsageDescription": "Enabling Face ID allows you quick and secure access to your account."
@@ -32,7 +32,7 @@
     },
     "android": {
       "package": "com.swiftsalamander.hexwallet",
-      "versionCode": 3
+      "versionCode": 4
     },
     "description": ""
   }
