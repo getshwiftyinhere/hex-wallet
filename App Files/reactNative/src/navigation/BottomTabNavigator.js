@@ -78,8 +78,8 @@ function getHeaderTitle(route) {
       return 'Wallet';
     case 'Chart':
       return 'Trading View';
-    case 'Settings':
-      return 'Settings';
+    case 'Info':
+      return 'Information';
   }
 }
 
