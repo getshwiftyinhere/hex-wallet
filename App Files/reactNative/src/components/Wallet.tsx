@@ -1803,14 +1803,14 @@ class Wallet extends React.Component<{
                             <Text style={styles2.prepareToRecordTh}>
                                 {i18n.t('createWalletInfo')}
                             </Text>
-                            <TouchableOpacity style={styles2.mainBtn} onPress={(getMnemonic)}>
+                            <TouchableOpacity style={styles2.createBtn} onPress={(getMnemonic)}>
                                 <ImageBackground style={btnStyles.buttonColor1}
                                                  imageStyle={btnStyles.buttonColor1_imageStyle}
                                                  source={require("../assets/images/button_bg.png")}>
                                     <Text style={styles2.homeScreen}> {i18n.t('createWalletBtn')}</Text>
                                 </ImageBackground>
                             </TouchableOpacity>
-                            <View style = {styles2.lineStyle} />
+                            
                             <TouchableOpacity style={styles2.mainBtn}
                                               onPress={() => importWallet(importedSeed, false, false)}>
                                 <ImageBackground style={btnStyles.buttonColor1}

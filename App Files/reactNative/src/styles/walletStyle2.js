@@ -301,6 +301,23 @@ module.exports = {
     width:"100%",
     textAlign:"center"
   },
+  createBtn: {
+    width: "70%",
+    color: "white",
+    height: 48,
+    backgroundColor: "black",
+    borderRadius: 10,
+    shadowOffset: {
+      height: 2,
+      width: 0
+    },
+    shadowColor: "rgba(0,0,0,0.3025568181818182)",
+    shadowOpacity: 1,
+    shadowRadius: 8,
+    overflow: "hidden",
+    marginTop:25,
+    marginBottom:25
+  },
   mainBtn: {
     width: "70%",
     color: "white",
@@ -316,23 +333,7 @@ module.exports = {
     shadowRadius: 8,
     overflow: "hidden"
   },
-  dividendView: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'row',
-  },
-  dividendTitle: {
-    backgroundColor: "transparent",
-    color: "rgba(128,128,128,1)",
-    opacity: 1,
-    fontSize: 18,
-    fontFamily: "palanquin-500",
-    lineHeight: 32,
-    textAlign: "center",
-    marginBottom: 5,
-    marginLeft: 10
-  },
+  
   titleView: {
     flex: 1,
     justifyContent: 'center',

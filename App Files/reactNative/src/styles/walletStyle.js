@@ -133,8 +133,8 @@ module.exports = {
     color: "black",
     fontSize: 45,
     opacity: 1,
-    textShadowColor: "magenta",
-    textShadowRadius: 2
+    textShadowColor: "white",
+    textShadowRadius: 5
   },
   balanceIcon: {
     height: "100%",
